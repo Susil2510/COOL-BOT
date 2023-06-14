@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Azanpopz/COOL-BOT.git /COOL-BOT
+  git clone https://github.com/Susil2510/COOL-BOT.git /COOL-BOT
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /COOL-BOT
